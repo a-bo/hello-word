@@ -4,4 +4,4 @@ MAINTAINER test@abc.com
 # Install jdk
 # ADD  .   /usr/local/
 
-CP index.php /usr/share/nginx/html
+COPY index.php /usr/share/nginx/html
