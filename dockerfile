@@ -1,6 +1,7 @@
-FROM       192.168.11.146/library/nginx:latest
+FROM 192.168.11.146/library/nginx:latest
 MAINTAINER test@abc.com
 
 # Install jdk
-ADD  .   /usr/local/
+# ADD  .   /usr/local/
 
+CP index.php /usr/share/nginx/html
